@@ -7,25 +7,25 @@ cask "fabric-emulator" do
         must_succeed: false
   end
 
-  version "0.41.0"
+  version "0.41.1"
 
   on_macos do
     on_arm do
-      sha256 "20912e3399a8848d63323b65c4b7440e54034378ed0967dd3a5564a5e371b01d"
+      sha256 "e89f5a6f120c08032feb2f3f3563341c16510d55c7b5f118137350aa936dcd67"
       url "https://github.com/calvinchengx/fabric-emulator/releases/download/v#{version}/fabric-emulator_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fa99b5fb2b634a64d0c925eb8bb3a3c853ebdde9fd5c35854e28c5378951cbec"
+      sha256 "0652c15e4cc5423d01e8f8d342388b9a38b7177ce7903d982fa2eca354b3e6c0"
       url "https://github.com/calvinchengx/fabric-emulator/releases/download/v#{version}/fabric-emulator_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "52c0337b38030007dc778cb62c3371b6b4b9b2abaad4a891f5fed1ed0bf67523"
+      sha256 "5a3be214078940204e145c01a40e7b94ab33d19b924dc189c07b76bd598394cc"
       url "https://github.com/calvinchengx/fabric-emulator/releases/download/v#{version}/fabric-emulator_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d9985fa9b8d255783eb60f7d8fe9916a4924987ac3364b1361044b7c8e6eb9ed"
+      sha256 "4198891fb817079444bc616ed45e8920949904a53ae50447f7028a37b9b2076c"
       url "https://github.com/calvinchengx/fabric-emulator/releases/download/v#{version}/fabric-emulator_#{version}_linux_amd64.tar.gz"
     end
   end
